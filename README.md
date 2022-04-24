@@ -239,7 +239,7 @@ The button uses an onClick event to toggle the behavior of light and a dark them
 
 Here is the output in the browser window. Click the Toggle Theme button to change the theme and the heading in the content.
 
-![ss3.git](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss3.git?raw=true)
+![ss3.gif](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss3.gif?raw=true)
 
 Here are the corresponding styles for the button-container.
 
