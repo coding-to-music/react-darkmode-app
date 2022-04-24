@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+
+// add state
+// const [darkTheme, setDarkTheme] = React.useState(false);
+
+// const [darkTheme, setDarkTheme] = React.useState(getDefaultTheme());
+
+// React.useEffect(() => {
+//   localStorage.setItem("dark", JSON.stringify(darkTheme));
+// }, [darkTheme]);
+
+// function getDefaultTheme() {
+//   const selectedTheme = JSON.parse(localStorage.getItem("dark"));
+//   return selectedTheme || false;
+// }
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="dark-theme">
+      <nav>Toggle button will go here</nav>
+      <div className="content">
+        <h1>Dark Mode</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Do take a note of the <code>color</code> property in the nav bar.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
