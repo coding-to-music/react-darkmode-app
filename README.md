@@ -2,13 +2,6 @@
 
 # How to add Dark mode functionality with React Hooks
 
-![ss1-1.png](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss1-1.png?raw=true)
-![ss2-1.png](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss2-1.png?raw=true)
-![ss3.git](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss3.git?raw=true)
-![ss4.png](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss4.png?raw=true)
-![ss5-1.png](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss5-1.png?raw=true)
-![ss6-1.gif](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss6-1.gif?raw=true)
-![ss7.png](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss7.png?raw=true)
 ![dark-mode-react-hooks.jpg](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/dark-mode-react-hooks.jpg?raw=true)
 
 # 🚀 Javascript full-stack 🚀
@@ -159,6 +152,8 @@ export default App
 
 Now, try to run the app using the command yarn start from a terminal window. Visit the URL http://localhost:3000 in a browser window and you will get the following result.
 
+![ss1-1.png](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss1-1.png?raw=true)
+
 Head back to the App.css file and create base styles for the dark theme.
 
 ```java
@@ -195,6 +190,8 @@ function App() {
 ```
 
 Looking back at the browser window, you get the following result.
+
+![ss2-1.png](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss2-1.png?raw=true)
 
 At this point, you have a very simplified version of the app, but it doesn't fulfill the purpose. It has to keep track of which theme the user selects and show the styles accordingly.
 
@@ -242,7 +239,9 @@ The button uses an onClick event to toggle the behavior of light and a dark them
 
 Here is the output in the browser window. Click the Toggle Theme button to change the theme and the heading in the content.
 
-## Here are the corresponding styles for the button-container.
+![ss3.git](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss3.git?raw=true)
+
+Here are the corresponding styles for the button-container.
 
 ```java
 .button-container {
@@ -269,7 +268,11 @@ Using an arrow function as the first argument, it is setting the value of darkTh
 
 Now, go back to the browser window and open dev tools. In the tab, Application look for the Storage > Local Storage as described in the image below. You will find a key dark that has the value of false.
 
+![ss4.png](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss4.png?raw=true)
+
 On clicking the button Toggle Theme the value of the key dark in the local storage changes to true.
+
+![ss5-1.png](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss5-1.png?raw=true)
 
 It works but on reloading the React app, switches back to the light theme. This is because the default value provided to the dark theme is always false. Let us change that.
 
@@ -290,7 +293,9 @@ function getDefaultTheme() {
 
 Notice in below demo of how the value of the dark is saved in the local storage even when the React app reloads.
 
-## Connecting Crowdbotics support to your Github Repo
+![ss6-1.gif](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss6-1.gif?raw=true)
+
+Connecting Crowdbotics support to your Github Repo
 
 Once everything is working, now let us add git version to this React project and then, further add the support for Crowdbotics app building platform. Open a terminal window and execute:
 
@@ -306,6 +311,8 @@ git commit -m "update"
 ```
 
 Once all the files are committed, add this repository to your Github account. Crowdbotics app building platform now gives you an option to connect a Github repository directly using GitHub OAuth integration ( which means you need to have a Crowdbotics account or login into one using your Github account).
+
+![ss7.png](https://github.com/coding-to-music/react-darkmode-app/blob/main/images/ss7.png?raw=true)
 
 More and in-detail information about this process could be found here.
 
